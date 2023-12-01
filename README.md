@@ -1,30 +1,16 @@
-# To Do List In Class Build
+# Destiny 2 Weekly To-Do List
 
-This is a to-do list that demonstrates using various selectors.
+This to do list is for tracking your completion of weekly content in Destiny 2
 
-## Installation
+## Instructions
 
-There is no installation required.
-
-## Usage
-
-Open index.html in the browser of your choice.
-
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## History
-
-TODO: Write history
+1. All Tasks start on the to-do list
+2. Click on in progress when you start one of the tasks
+3. Click on complete when you are done!
 
 ## Credits
 
-Marco De Luca
+Simon DaSilva
 
 ## License
 
