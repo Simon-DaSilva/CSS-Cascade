@@ -1,6 +1,9 @@
 /* selects all tags and resets the default values to 0 */
 /* We don't want to rely on the browser defaults */
 
+.hidden {
+    display: none;
+}
 * {
     border: none;
     margin: 0;
@@ -98,10 +101,22 @@ ul li {
     background-color: rgba(0, 255, 0, 0.5);
 }
 
-.button {
-    cursor: pointer;
+
+.done input[type="radio"]:checked + span::after {
+    content: "\2713";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: 15px;
+    font-size: 20px;
+    animation: fadeIn 2.0s;
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
-.button:hover {
-    background-color: #ccc;
+footer {
+    padding-top: 250px;
 }
